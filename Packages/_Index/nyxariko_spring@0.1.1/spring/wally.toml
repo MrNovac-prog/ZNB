@@ -1,0 +1,10 @@
+[package]
+name = "nyxariko/spring"
+description = "spring"
+version = "0.1.1"
+realm = "shared"
+authors = ["nyxariko"]
+registry = "https://github.com/UpliftGames/wally-index"
+exclude = ["aftman.toml"]
+
+[dependencies]
