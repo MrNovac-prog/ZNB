@@ -3,13 +3,23 @@
 registry = "test"
 
 [[package]]
+name = "acwebber01/fastcast"
+version = "1.0.1"
+dependencies = [["PartCache", "megamonsta2/partcache@1.1.3"], ["Table", "megamonsta2/table@1.0.3"]]
+
+[[package]]
 name = "brittonfischer/profileservice"
 version = "2.1.5"
 dependencies = []
 
 [[package]]
-name = "evaera/cmdr"
-version = "1.12.0"
+name = "darkestdev/bridgenet2"
+version = "1.0.2"
+dependencies = [["RemotePacketSizeCounter", "pysephwasntavailable/remotepacketsizecounter@2.4.1"], ["TableKit", "ffrostflame/tablekit@0.2.4"], ["wallyInstanceManager", "ffrostflame/wally-instance-manager@0.1.0"]]
+
+[[package]]
+name = "dervexhero/advancedspring"
+version = "1.0.0"
 dependencies = []
 
 [[package]]
@@ -18,18 +28,33 @@ version = "4.0.0"
 dependencies = []
 
 [[package]]
-name = "jessekroeske/simplepath"
-version = "2.2.2"
+name = "ffrostflame/tablekit"
+version = "0.2.4"
+dependencies = []
+
+[[package]]
+name = "ffrostflame/wally-instance-manager"
+version = "0.1.0"
 dependencies = []
 
 [[package]]
 name = "kye/znb"
 version = "0.1.0"
-dependencies = [["cmdr", "evaera/cmdr@1.12.0"], ["fastcast2", "weenachuangkud/fastcast2@0.1.2"], ["knit", "sleitnick/knit@1.7.0"], ["profileservice", "brittonfischer/profileservice@2.1.5"], ["simplepath", "jessekroeske/simplepath@2.2.2"], ["spring", "nyxariko/spring@0.1.1"], ["trove", "sleitnick/trove@0.1.3"]]
+dependencies = [["advancedspring", "dervexhero/advancedspring@1.0.0"], ["bridgenet2", "darkestdev/bridgenet2@1.0.2"], ["fastcast", "acwebber01/fastcast@1.0.1"], ["knit", "sleitnick/knit@1.7.0"], ["partcache", "megamonsta2/partcache@1.1.3"], ["profileservice", "brittonfischer/profileservice@2.1.5"]]
 
 [[package]]
-name = "nyxariko/spring"
-version = "0.1.1"
+name = "megamonsta2/partcache"
+version = "1.1.3"
+dependencies = [["Table", "megamonsta2/table@1.0.3"]]
+
+[[package]]
+name = "megamonsta2/table"
+version = "1.0.3"
+dependencies = []
+
+[[package]]
+name = "pysephwasntavailable/remotepacketsizecounter"
+version = "2.4.1"
 dependencies = []
 
 [[package]]
@@ -50,14 +75,4 @@ dependencies = []
 [[package]]
 name = "sleitnick/signal"
 version = "2.0.3"
-dependencies = []
-
-[[package]]
-name = "sleitnick/trove"
-version = "0.1.3"
-dependencies = []
-
-[[package]]
-name = "weenachuangkud/fastcast2"
-version = "0.1.2"
 dependencies = []

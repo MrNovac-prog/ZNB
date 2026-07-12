@@ -5,10 +5,16 @@ registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
 [dependencies]
+# -- Architecture & State -- 
 knit = "sleitnick/knit@1.7.0"
 profileservice = "brittonfischer/profileservice@2.1.5"
-spring = "nyxariko/spring@0.1.1"
-simplepath = "jessekroeske/simplepath@2.2.2"
-cmdr = "evaera/cmdr@1.12.0"
-trove = "sleitnick/trove@0.1.0"
-fastcast2 = "weenachuangkud/fastcast2@0.1.2"
+
+# -- Motion & Feeling --
+advancedspring = "dervexhero/advancedspring@1.0.0"
+
+# -- Projectiles & Raycasting --
+fastcast = "acwebber01/fastcast@1.0.1"
+partcache = "megamonsta2/partcache@1.1.3"
+
+# -- Networking --
+bridgenet2 = "darkestdev/bridgenet2@1.0.2"

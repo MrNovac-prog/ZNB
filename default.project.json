@@ -27,6 +27,9 @@
     },
     "Workspace": {
       "$path": "src/Workspace"
+    },
+    "Lighting": {
+      "$path": "src/Lighting"
     }
   }
 }
